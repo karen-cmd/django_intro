@@ -5,10 +5,10 @@ def Home(request):
 
 
 def Product(request):
-    return HttpResponse('Product')
+    return render(request, 'accounts/products.html')
 
 def Customer(request):
-    return HttpResponse('Customer')
+    return render(request, 'accounts/customer.html')
 
 
 
